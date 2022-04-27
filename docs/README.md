@@ -1,15 +1,24 @@
-## Welcome to documentation for Plutus Community 
+# Welcome to Plutus Community Docs 
 
 ### Disclaimer
-
 ---
-**.-**
-This site is for the benefit of the Cardano community and is owned and maintained by the community under an open source philosophy. Input Output Global, Inc. (IOG) is not responsible for, and makes no representations or warranties regarding, the accuracy, reliability and completeness of the aggregated content found in this repo. Any use of the open source Apache 2.0 licensed software is done at your own risk and on a “AS IS” basis, without warranties or conditions of any kind.
+<blockquote>
+  <span style="color:lightorange;font-weight:700;font-size:16px">
+    <p>This site is for the benefit of the Cardano community and is owned and maintained by the community under an open source philosophy. Input Output Global, Inc. (IOG) is not responsible for, and makes no representations or warranties regarding, the accuracy, reliability and completeness of the aggregated content found in this site. Any use of the open source Apache 2.0 licensed software is done at your own risk and on a “AS IS” basis, without warranties or conditions of any kind.</p>
+  </span>
+</blockquote>
 ---
 
-This documentation site is built from the contributions of current Plutus Pioneer students and alumni. Our goal is to help future Plutus developers to stand on the shoulder of giants by provding a resource which combines the lessons and experiences from previous cohorts.
 
-Please don't expect that everything will work out of the box as the Plutus ecosystem evolves quickly. All the content is created from the best efforts and knowledge of volunteers. Don't hesitate to join us if you have something to share with others.
+This documentation site is built from Cardano community contributions. It started as a knowledge-sharing site for Plutus Pioneer students and alumni. As the community grows the scope of the content here also follows a proportional path. 
+
+Our mission is to help future Cardano developers stand on the shoulder of giants by provding a rich resource that perfects itself after each iteration of educational programs and each wave of dApps that raises the ecosystem's standards.
+
+**Important:** Please don't expect that everything will work out of the box as the Plutus language is in its infancy and evolves rapidly. All the content here is created from the best efforts and knowledge of volunteers. 
+
+Having said that, we always aim to improve so contributions are welcomed. Before you raise a Pull Request see the [How to Contribute](https://github.com/input-output-hk/plutus-community/blob/main/CONTRIBUTING.md){:target="_blank"} guide. 
+
+
 
 This website has been a valuable source of information for past cohorts, mainly because:
 
