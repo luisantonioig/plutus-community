@@ -2,14 +2,14 @@
 
 <!-- toc -->
 
-1. [Before Contributing](#before-contributing)
-2. [State of the Art of Plutus](#state-of-the-art-plutus)
-3. [Developing Plutus Community](#developing-plutus)
-4. [Checklist Before PR](#checklist-before-pr)
+[1. Before Contributing](#before-contributing)
+[2. State of the Art of Plutus](#state-of-the-art-plutus)
+[3. Developing Plutus Community](#developing-plutus)
+[4. Checklist Before PR](#checklist-before-pr)
   - [Is it already in plutus-community-docs?](#is-it-already)
   - [Are you making big/small changes](#big-small-changes)
   - [Tidy Y our Notes and PR](#tidy-and-pr)
-5. [Collaborators Code of Conduct](#collaborators-code-of-conduct)
+[5. Collaborators Code of Conduct](#collaborators-code-of-conduct)
 
 <!-- tocstop -->
 
@@ -33,7 +33,7 @@ It is important to understand that Plutus is an amazing piece of top-notch techn
 This should bring awareness to the fact that the goal of this documentation is also to be in constant evolution. Although IOG makes increasing efforts to improve official documentation, the high volume and frequency of updates that the language undergoes makes it unrealistic for one team from one single company to keep everything up to date. Having said that, leveraging the power of multiple eager learners and developers across the planet that would anyways explore Plutus and create notes on their own, now have a shared home. We envision Plutus Community Docs as the place for that high frequency collective contribution.
 
 
-### Checklist before PR
+### 4. Checklist before PR
 
 Is it already in plutus-community-docs.com or could it require its own section?
 
@@ -58,7 +58,7 @@ Please read the site and documentation available as reviewing PRs imply time and
 
 Once the above point is satisfied please polish and tidy up your markdown before initiating a PR. Expect sometime before the changes take effect on the actual site. 
 
-### Collaborators Code of Conduct
+### 5. Collaborators Code of Conduct
 
 This status intends to become a label on individuals that reflect that they have been working recently with Plutus and have fresh useful knowledge. Overall it should be chill work and nothing elitist.
 
