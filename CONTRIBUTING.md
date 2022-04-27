@@ -25,27 +25,27 @@ Having said that, IOG’s philosophy for this project does not rely on abusing f
 It is important to understand that Plutus is an amazing piece of top-notch technology that is in constant evolution. It is the product of many scientific disciplines working together. From Ouroboros eUTXO, the first mathematically proven proof of Stake protocol to Plutus Core, a parsimonious intermediary language for Pluts compilation and the Alonzo Hard Fork, are some few major technical achievements. The main point here is that whatever knowledge we gain during this phase of constant evolution is not going to be stationary and although the fundamental concepts will not change, it is likely that technical details will, eg.:
 
 
-    - Developer environment overall
-    - Programming syntax
-    - Plutus functions
-    - Off-chain tooling
+- Developer environment overall
+- Programming syntax
+- Plutus functions
+- Off-chain tooling
 
 This should bring awareness to the fact that the goal of this documentation is also to be in constant evolution. Although IOG makes increasing efforts to improve official documentation, the high volume and frequency of updates that the language undergoes makes it unrealistic for one team from one single company to keep everything up to date. Having said that, leveraging the power of multiple eager learners and developers across the planet that would anyways explore Plutus and create notes on their own, now have a shared home. We envision Plutus Community Docs as the place for that high frequency collective contribution.
 
 
-### 4. Checklist before PR
+### Checklist before PR
 
 Is it already in plutus-community-docs.com or could it require its own section?
 
 Please read the site and documentation available as reviewing PRs imply time and effort from collaborators and site maintainers. If you would like to contribute include the following on the PR description:
 
-*If you want to add, change or update existing material:*
+**If you want to add, change or update existing material:**
 
 - Index tree, Section of the documentation changes.
 - Brief description of what the main changes are.
 - If it is not obvious from the above description, elaborate more on the reason for your edits.
 
-*If you want to propose a new section/sub-section:*
+**If you want to propose a new section/sub-section:**
 
 - Write a simple proposal following the format below:
     - i)   Motivation.
@@ -58,7 +58,7 @@ Please read the site and documentation available as reviewing PRs imply time and
 
 Once the above point is satisfied please polish and tidy up your markdown before initiating a PR. Expect sometime before the changes take effect on the actual site. 
 
-### 5. Collaborators Code of Conduct
+### Collaborators Code of Conduct
 
 This status intends to become a label on individuals that reflect that they have been working recently with Plutus and have fresh useful knowledge. Overall it should be chill work and nothing elitist.
 
