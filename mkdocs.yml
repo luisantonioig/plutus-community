@@ -1,6 +1,6 @@
 site_name: Plutus Community Docs
-site_url: https://plutus-community.readthedocs.io/en/latest/
-repo_url: https://github.com/plutus-community/docs/
+site_url: https://plutus-community/en/latest/
+repo_url: https://github.com/input-output-hk/plutus-community
 theme:
   # theme name, windmill
   # cleaner for nested content and supporting more than 2 levels of depth
