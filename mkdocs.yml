@@ -1,5 +1,5 @@
 site_name: Plutus Community Docs
-site_url: https://plutus-community-docs.readthedocs.io/en/latest/
+site_url: https://plutus-community.readthedocs.io/en/latest/
 repo_url: https://github.com/input-output-hk/plutus-community
 theme:
   # theme name, windmill
