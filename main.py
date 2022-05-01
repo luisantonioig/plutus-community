@@ -34,7 +34,7 @@ from markupsafe import escape
 
 # Define settings for Staticman comments
 commentsPath = "./docs/_comments"
-formAction = "https://plutus-community-cors.herokuapp.com/plutus-community-staticman.herokuapp.com/v2/entry/plutus-community/docs/main/comments"
+formAction = "https://plutus-community-cors.herokuapp.com/plutus-community-staticman.herokuapp.com/v2/entry/input-output-hk/plutus-community/main/comments"
 recaptchaSitekey = "6LflJp4fAAAAALfOUV-Uvv3dKr2vF3bxokaMepwx"
 recaptchaSecret = "adjYxki/QvUIxJxgnUcIEdFiwBuf08i4peRF8z4rGDx3PqXfjo0Oun7XB4eg5qMkfDxziCG2uUGIGY1LXOEFR2C1uf+Rq8TTqwiAxx9jTv0CyCYk2UAO9UL+CuKzisxSc/xNpxJtaNcYUZ8A6BFAFphwiME4Cvfy7JkHQVaKOdxGz7cC6G/0pHWRlfnO04bLuXAMb0gpmnVbJzJ2YJIg68L/Vf1gWtJ3UhbIifGSd9hcW0iiPv8ZaBokvZmjufb77kmV0b3wbDFGIGY0P58NfrB+gUdzpQ2+TwJVINRW14gVRjFZgoBZPhfZfetLeKBMFB/UV9A/wRYVHdKqcH5g3APtOe6BaXI4NjSo4LmRgLqtfAH5pTEiqYJMjYrNTN29F8v/5AJ5SCTKo2MMC8qhc3ajrkfGBoAYN9LvbFv/c8btHKl3wLs11Oui/DuCHaFqd6GE2t4hvRUJ24+68pE97KkbgpJh15xqFLcnwgiN+7ftFlcSDcuta6twaFtg4HWSpYZingkniXLUVInpKOuaQK+hGnrA6Bm7ACwNUTzj4D8j1eIohj8ok3r6dPS0OE6xI58CoUpZXTW3jOgkQXW17oNr6Ab/pZ6kR9cepESgpI5/4XT1JGWnPTp7WnEsB0S4FJSmigldVF8SN1qyoC1AqnKmRUzKrnw5giIblv69lb8="
 # Function to generate a date sorted list with all the comments available

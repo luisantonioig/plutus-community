@@ -4,7 +4,7 @@
 # another one to handle posts.
 comments:
   # List of allowed origins
-  allowedOrigins: ["localhost", "plutus-community-docs.readthedocs.io"]
+  allowedOrigins: ["localhost", "plutus-community.readthedocs.io"]
 
   # (*) REQUIRED
   #
