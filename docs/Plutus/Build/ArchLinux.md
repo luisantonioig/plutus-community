@@ -1,3 +1,6 @@
+# ArchLinux
+## Build and Run the Plutus Playground server and client
+
 Clone the plutus-apps repository and change your working directory.
 
 ```

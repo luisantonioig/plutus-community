@@ -1,32 +1,35 @@
-7 - Now to install, clone the git repo first
+# Mac OS
+## Build and Run the Plutus Playground server and client
+
+1 - Now to install, clone the git repo first
 
     [$] git clone https://github.com/input-output-hk/plutus-apps.git
 
 
-8 - All the following builds should be executed while in the plutus directory
+2 - All the following builds should be executed while in the plutus directory
 
     [$] cd plutus-apps
 
 
-9 - Build the Plutus Playground Client / Server
+3 - Build the Plutus Playground Client / Server
 
     [$] nix-build -A plutus-playground.client
     [$] nix-build -A plutus-playground.server
 
 
-10 - Build other plutus dependencies
+4 - Build other plutus dependencies
 
     [$] nix-build -A plutus-playground.generate-purescript
     [$] nix-build -A plutus-playground.start-backend
     [$] nix-build -A plutus-pab
 
 
-11 - Go into nix-shell
+5 - Go into nix-shell
 
     [$] nix-shell
 
 
-12 - inside of the nix-shell
+6 - inside of the nix-shell
 
     [$] cd plutus-pab
     [$] plutus-pab-generate-purs
@@ -34,7 +37,7 @@
     [$] plutus-playground-generate-purs
 
 
-13 - start the playground server
+7 - start the playground server
 
     [$] plutus-playground-server
 
@@ -45,14 +48,14 @@
 
 
 
-14 - Now in a new terminal window:
+8 - Now in a new terminal window:
 
     [$] cd plutus-apps
     [$] nix-shell
     [$] cd plutus-playground-client
 
 
-15 - Here we compile / build the frontend of the playground
+9 - Here we compile / build the frontend of the playground
 
     [$] npm run start
 

@@ -1,37 +1,40 @@
-6 clone the right repository! not the ...plutus one, it needs to be the ...plutus-apps repo:
+# Mac M1
+## Build and Run the Plutus Playground server and client
+
+1 clone the right repository! not the ...plutus one, it needs to be the ...plutus-apps repo:
 ```console
 git clone https://github.com/input-output-hk/plutus-apps
 ```
-7 goto folder
+2 goto folder
 ```console
 cd plutus-apps/
 ```
-8 no checkout of commits needed, just use the master branch for now
+3 no checkout of commits needed, just use the master branch for now
 
-9 build the server
+4 build the server
 ```console
 nix-build -A plutus-playground.server
 ```
 IMPORTANT: if there occurs a segfault, just build it again, it will work.
 
-10 build the client
+5 build the client
 ```console
 nix-build -A plutus-playground.client
 ```
 same here, if there are errors during build, just call the command again.
 
-11 start nix shell (takes some time)
+6 start nix shell (takes some time)
 ```console
 nix-shell
 ```
-12 goto server dir and start server (yes, with the GC thing in front)
+7 goto server dir and start server (yes, with the GC thing in front)
 ```console
 cd plutus-playground-server
 GC_DONT_GC=1 plutus-playground-server
 ```
 sometimes the server will not start at first try. try again, second start should work!
 
-13 wait until server is started! you will see something like this
+8 wait until server is started! you will see something like this
 ```console
 plutus-playground-server: for development use only
 [Info] Running: (Nothing,Webserver {_port = 8080, _maxInterpretationTime = 80s})
@@ -42,20 +45,20 @@ Warning: GITHUB_CLIENT_SECRET not set
 Warning: JWT_SIGNATURE not set
 Interpreter ready
 ```
-14 when server is started you can open a second nix-shell in another terminal
+9 when server is started you can open a second nix-shell in another terminal
 ```console
 nix-shell
 ```
-15 in the second terminal with nix-shell run
+10 in the second terminal with nix-shell run
 ```console
 sudo npm install -g npm
 ```
-16 goto client dir and start client (yes, with the GC thing in front)
+11 goto client dir and start client (yes, with the GC thing in front)
 ```console
 cd plutus-playground-client
 GC_DONT_GC=1 npm run start
 ```
-17 wait until client has started and you see something like this
+12 wait until client has started and you see something like this
 ```console
 webpack compiled with 1 warning
 ℹ ｢wdm｣: Compiled with warnings.

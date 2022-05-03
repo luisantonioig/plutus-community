@@ -25,15 +25,14 @@ nav:
       - 'Ubuntu (using Vagrant)': 'Outdated/Vagrant-Ubuntu.md'
       - 'Windows/WSL2 (1st alternative)': 'Outdated/WindowsCohort2.md'
   - Plutus:
-    - Playground:
-      - Set-up Plutus Playground Server and Client:
-        - 'Ubuntu': 'Plutus/Playground/Build/Ubuntu.md'
-        - 'Ubuntu (Fresh Install)': 'Plutus/Playground/Build/Ubuntufresh.md'
-        - 'Arch Linux': 'Plutus/Playground/Build/ArchLinux.md'  
-        - 'MacOS': 'Plutus/Playground/Build/MacOS.md'  
-        - 'MacOS M1': 'Plutus/Playground/Build/Mac_M1.md'
-        - 'Windows/WSL2 (2nd alternative)': 'Plutus/Playground/Build/WindowsWSL.md'
-        - 'NixOS (using Vagrant)': 'Plutus/Playground/Build/Vagrant-Nixos.md'
+    - Build and Run Playground Server and Client:
+      - 'Ubuntu': 'Plutus/Build/Ubuntu.md'
+      - 'Ubuntu (Fresh Install)': 'Plutus/Build/Ubuntufresh.md'
+      - 'Arch Linux': 'Plutus/Build/ArchLinux.md'  
+      - 'MacOS': 'Plutus/Build/MacOS.md'  
+      - 'MacOS M1': 'Plutus/Build/Mac_M1.md'
+      - 'Windows/WSL2 (2nd alternative)': 'Plutus/Build/WindowsWSL.md'
+      - 'NixOS (using Vagrant)': 'Plutus/Build/Vagrant-Nixos.md'
     - Lectures:
       - Cohort 03 (March 2022):
         - '1. EUTxO and English Auction': 'Plutus/Lectures/Cohort_03/Lecture_01.md'

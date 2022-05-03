@@ -1,3 +1,6 @@
+# Ubuntu (Fresh Install)
+## Build and Run the Plutus Playground server and client
+
 With Nix now installed and configured,  we will clone the appropriate repositories from github. We will be cloning the plutus-apps and the plutus-pioneer program.
 First, let’s clone plutus-apps:
 ```
