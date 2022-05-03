@@ -26,6 +26,8 @@ nav:
       - 'Windows/WSL2 (1st alternative)': 'Outdated/WindowsCohort2.md'
   - Plutus:
     - Setting up the Plutus Playground:
+      - Repos:
+        - '1. plutus': 'plutus'
     - Lectures:
       - Cohort 03 (March 2022):
         - '1. EUTxO and English Auction': 'Lectures/Cohort_03/Lecture_01.md'
@@ -63,7 +65,14 @@ nav:
         - '6. Oracles': 'Lectures/Cohort_01/Lecture_06.md'
   - Marlowe:
     - Setting up the Marlowe Run:
+      - Repos:
+        - 'Marlowe Cardano': 'marlowe'
     - Lectures:
+      - Cohort 01 (May 2022):
+        - '1. Marlowe': 'Marlowe'
+    - Troubleshooting:
+      - 'Clear Storage': 'How to clear Storage'
+      - 'Recreate Wallet': 'How to recreate a wallet with your seedphrase'
   - Guides:
     - 'Using Plutus API Documentation': 'Guides/APIbuildDocumentation.md'
     - 'Using Plutus Playground for Plutus Pioneer Program': 'Guides/plutusplayground.md'
