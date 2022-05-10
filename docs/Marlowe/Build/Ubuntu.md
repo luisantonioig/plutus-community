@@ -103,7 +103,7 @@ Once in the shell, query the versions of things
 
     marlowe-cli --version
     cardano-cli --version
-    cardano-wallet --version
+    cardano-wallet version
 
 If these look good, you're all set
 
