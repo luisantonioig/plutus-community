@@ -3,10 +3,6 @@
 Plutus Pioneer Program - Cohort 3 
 March 17th, 2022
 
-Contributed By:
-[Joe Totes](https://github.com/Totes5706)
-
-
 Offical Video by Lars Brünjes: [PPP-Cohort3-Lecture9](https://youtube.com/playlist?list=PLNEK_Ejlx3x2zSFnzWA4Gbr_AVTz-4rzf)
 
 

@@ -3,10 +3,6 @@
 Plutus Pioneer Program - Cohort 3 </br >
 March 30th, 2022
 
-Contributed By:
-[Joe Totes](https://github.com/Totes5706)
-
-
 Offical Video by Lars Brünjes: [PPP-Cohort3-Lecture10](https://youtube.com/playlist?list=PLNEK_Ejlx3x3EV7FKhlogJgS27dWgwI9B)
 
 
@@ -29,23 +25,23 @@ First, head to the plutus-pioneer-program directory to grab the lecture week 10 
 **This week is slightly different because we need to git pull from multiple repos. Go into the week 10 folder and then execute:**
 
 ```
-totinj@penguin:~/plutus-pioneer-program$ git pull 
+~/plutus-pioneer-program$ git pull 
 ```
 
 Head into he week10 subfolder and clone the woofpool private testnet:
 
 ```
-totinj@penguin:~/plutus-pioneer-program/code/week10$ rmdir cardano-private-testnet-setup
+~/plutus-pioneer-program/code/week10$ rmdir cardano-private-testnet-setup
 ```
 
 ```
-totinj@penguin:~/plutus-pioneer-program/code/week10$ git clone https://github.com/woofpool/cardano-private-testnet-setup.git
+~/plutus-pioneer-program/code/week10$ git clone https://github.com/woofpool/cardano-private-testnet-setup.git
 ```
 
 Open the cabal.project file:
 
 ```
-totinj@penguin:~/plutus-pioneer-program/code/week10$ cat cabal.project
+~/plutus-pioneer-program/code/week10$ cat cabal.project
 ```
 
 Grab the plutus-apps tag inside the cabal.project file:
@@ -57,13 +53,13 @@ location: https://github.com/input-output-hk/plutus-apps.git
 Head back to the plutus-apps directory. Now we can update plutus-apps to the current git tag:
 
 ```
-totinj@penguin:~/plutus-apps$ git checkout main
+~/plutus-apps$ git checkout main
 ```
 ```
-totinj@penguin:~/plutus-apps$ git pull
+~/plutus-apps$ git pull
 ```
 ```
-totinj@penguin:~/plutus-apps$ git checkout 14bed17e8608162ee81969e482c1815fb78bd7b0
+~/plutus-apps$ git checkout 14bed17e8608162ee81969e482c1815fb78bd7b0
 ```
 **We will need to account for a bug here before we run nix-shell. In the main plutus-apps directory, open shell.nix and delete the line ```cardano-wallet.cardano-wallet``` and click save:**
 
@@ -102,7 +98,7 @@ totinj@penguin:~/plutus-apps$ git checkout 14bed17e8608162ee81969e482c1815fb78bd
 You should now be up to date and can run nix-shell in this directory. Run nix-shell:
 
 ```
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 Head back to the week10 folder and build the project:

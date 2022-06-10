@@ -3,9 +3,6 @@
 Plutus Pioneer Program - Cohort 3
 January 20, 2022
 
-Contributed By:
-[Joe Totes](https://github.com/Totes5706)
-
 Offical Video by Lars Brünjes: [PPP-Cohort3-Lecture2](https://youtu.be/BEr7lcCPjnA)
 
 Google Doc version can be found [HERE](https://docs.google.com/document/d/1wclIpwHW-Lo8R8IJHbjvEYjyzsm5qLUMcrN9bpCOL00/edit#)
@@ -27,13 +24,13 @@ Before we can get started in lecture 2, we first must get our development enviro
 First, head to the plutus-pioneer-program directory to grab the lecture week 2 contents. Execute: 
 
 ```
-totinj@penguin:~/plutus-pioneer-program$ git pull
+~/plutus-pioneer-program$ git pull
 ```
 
 You can now navigate to the current week02 directory and open the cabal.project file:
 
 ```
-totinj@penguin:~/plutus-pioneer-program/code/week02$ cat cabal.project
+~/plutus-pioneer-program/code/week02$ cat cabal.project
 ```
 
  Grab the plutus-apps tag inside the cabal.project file:
@@ -46,19 +43,19 @@ location: https://github.com/input-output-hk/plutus-apps.git
 Head back to  to the plutus-apps directory and update it to the  current git tag:
 
 ```
-totinj@penguin:~/plutus-apps$ git checkout main
+~/plutus-apps$ git checkout main
 ```
 ```
-totinj@penguin:~/plutus-apps$ git pull
+~/plutus-apps$ git pull
 ```
 ```
-totinj@penguin:~/plutus-apps$ git checkout 6aff97d596ac9d59460aab5c65627b1c8c0a1528
+~/plutus-apps$ git checkout 6aff97d596ac9d59460aab5c65627b1c8c0a1528
 ```
 
 You should now be up to date and can run nix-shell in this directory. Run nix-shell:
 
 ```
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 Head back to the week02 folder to start running the cabal commands:
@@ -323,7 +320,7 @@ Let’s get started with terminal 1. Head to the plutus-apps directory and first
 
 ```haskell
 Terminal 1
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 Next we head to plutus-playground-server directory and run: 
@@ -344,7 +341,7 @@ Let’s get started with terminal 2. Head to the plutus-apps directory and first
 
 ```haskell
 Terminal 2
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 Next we head to plutus-playground-client directory and run: 

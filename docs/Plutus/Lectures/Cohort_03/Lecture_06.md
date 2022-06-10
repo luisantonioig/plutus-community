@@ -3,9 +3,6 @@
 Plutus Pioneer Program - Cohort 3 
 February 26, 2022
 
-Contributed By:
-[Joe Totes](https://github.com/Totes5706)
-
 Offical Video by Lars Brünjes: [PPP-Cohort3-Lecture6](https://youtu.be/TfWKxdli4eI)
 
 Google Doc version can be found [HERE](https://docs.google.com/document/d/15XIo3ebvs3ovbKdGURsXbmdXu3YiNmH-iTBQaE07OyU/edit#)
@@ -38,13 +35,13 @@ Before we can get started in lecture 6, we first must get our development enviro
 First, head to the plutus-pioneer-program directory to grab the lecture week 6 contents. Execute: 
 
 ```
-totinj@penguin:~/plutus-pioneer-program$ git pull
+~/plutus-pioneer-program$ git pull
 ```
 
 You can now navigate to the current week06 directory and open the cabal.project file:
 
 ```
-totinj@penguin:~/plutus-pioneer-program/code/week06$ cat cabal.project
+~/plutus-pioneer-program/code/week06$ cat cabal.project
 ```
 
 Grab the plutus-apps tag inside the cabal.project file:
@@ -57,19 +54,19 @@ location: https://github.com/input-output-hk/plutus-apps.git
 Head back to the plutus-apps directory and update it to the current git tag:
 
 ```
-totinj@penguin:~/plutus-apps$ git checkout main
+~/plutus-apps$ git checkout main
 ```
 ```
-totinj@penguin:~/plutus-apps$ git pull
+~/plutus-apps$ git pull
 ```
 ```
-totinj@penguin:~/plutus-apps$ git checkout 6e3f6a59d64f6d4cd9d38bf263972adaf4f7b244
+~/plutus-apps$ git checkout 6e3f6a59d64f6d4cd9d38bf263972adaf4f7b244
 ```
 
 You should now be up to date and can run nix-shell in this directory. Run nix-shell:
 
 ```
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 Head back to the week06 folder to start running the cabal commands:
@@ -105,7 +102,7 @@ Keep the cabal repl open on terminal 1, and open a new terminal 2. Head to the p
 ```
 Terminal 2
 
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 Head to week06 subfolder in the plutus pioneer directory. We will be running the start-node-test.sh script which will initialize the testnet based off of the config files in this folder
@@ -143,7 +140,7 @@ Keep the node running on terminal 2, and open a new terminal 3. Head to the plut
 ```
 Terminal 3
 
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 Head to the week06 subfolder in the plutus pioneer directory, then inside that the testnet folder. 
@@ -180,7 +177,7 @@ Keep the wallet running on terminal 3, and open a new terminal 4. Head to the pl
 ```
 Terminal 4
 
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 Head to week06 subfolder in the plutus pioneer directory. First, set the environment variables:
@@ -316,7 +313,7 @@ Keep the wallet running on terminal 4, and open a new terminal 5. Head to the pl
 ```
 Terminal 5
 
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 **To avoid future errors with the chain index, let’s install the dependencies:**
 
@@ -338,7 +335,7 @@ Keep the chain index syncing on terminal 5, and open a new terminal 6. Head to t
 ```
 Terminal 6
 
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 We first need to update the ./start-testnet-pab.sh script to handle the passphrase we picked for our wallet. 
 
@@ -611,7 +608,7 @@ Now let's switch to the console. Keep the node running on terminal 2 (hopefully 
 ```
 Terminal 6
 
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 Head to the week06 subfolder in the plutus pioneer directory, then inside that the testnet folder. We first need to create a new vkey, skey pair:
