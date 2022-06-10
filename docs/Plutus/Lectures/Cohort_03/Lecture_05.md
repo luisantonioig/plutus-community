@@ -3,9 +3,6 @@
 Plutus Pioneer Program - Cohort 3 
 February 10, 2022
 
-Contributed By:
-[Joe Totes](https://github.com/Totes5706)
-
 Offical Video by Lars Brünjes: [PPP-Cohort3-Lecture5](https://youtu.be/mGPqi9m0EPw)
 
 Google Doc version can be found [HERE](https://docs.google.com/document/d/1o89UQlihqCQH-DvMcGJeoInqmZtm8AlCUbcemAerxmk/edit)
@@ -30,13 +27,13 @@ Before we can get started in lecture 5, we first must get our development enviro
 First, head to the plutus-pioneer-program directory to grab the lecture week 5 contents. Execute: 
 
 ```
-totinj@penguin:~/plutus-pioneer-program$ git pull
+~/plutus-pioneer-program$ git pull
 ```
 
 You can now navigate to the current week05 directory and open the cabal.project file:
 
 ```
-totinj@penguin:~/plutus-pioneer-program/code/week05$ cat cabal.project
+~/plutus-pioneer-program/code/week05$ cat cabal.project
 ```
 
  
@@ -51,13 +48,13 @@ location: https://github.com/input-output-hk/plutus-apps.git
 Head back to  to the plutus-apps directory and update it to the  current git tag:
 
 ```
-totinj@penguin:~/plutus-apps$ git checkout main
+~/plutus-apps$ git checkout main
 ```
 ```
-totinj@penguin:~/plutus-apps$ git pull
+~/plutus-apps$ git pull
 ```
 ```
-totinj@penguin:~/plutus-apps$ git checkout 62efdd2bfab3e076d40e07f8f4d7864a7f2ccc91
+~/plutus-apps$ git checkout 62efdd2bfab3e076d40e07f8f4d7864a7f2ccc91
 ```
 
 
@@ -65,7 +62,7 @@ totinj@penguin:~/plutus-apps$ git checkout 62efdd2bfab3e076d40e07f8f4d7864a7f2cc
 You should now be up to date and can run nix-shell in this directory. Run nix-shell:
 
 ```
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 Head back to the week05 folder to start running the cabal commands:

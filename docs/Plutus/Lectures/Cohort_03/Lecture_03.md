@@ -3,9 +3,6 @@
 Plutus Pioneer Program - Cohort 3 
 January 26, 2022
 
-Contributed By:
-[Joe Totes](https://github.com/Totes5706)
-
 Offical Video by Lars Brünjes: [PPP-Cohort3-Lecture3](https://youtu.be/sLMhsqiWeGU)
 
 Google Doc version can be found [HERE](https://docs.google.com/document/d/1MKEcgNl5QUugBhan39eOKM6zkBJ9_kLkQ6abjWp9pUY/edit#)
@@ -32,13 +29,13 @@ Before we can get started in Lecture 3, we first must get our development enviro
 First, head to the plutus-pioneer-program directory to grab the lecture week 3 contents. Execute: 
 
 ```
-totinj@penguin:~/plutus-pioneer-program$ git pull
+~/plutus-pioneer-program$ git pull
 ```
 
 You can now navigate to the current week03 directory and open the cabal.project file:
 
 ```
-totinj@penguin:~/plutus-pioneer-program/code/week03$ cat cabal.project
+~/plutus-pioneer-program/code/week03$ cat cabal.project
 ```
 
  Grab the plutus-apps tag inside the cabal.project file:
@@ -51,19 +48,19 @@ location: https://github.com/input-output-hk/plutus-apps.git
 Head back to  to the plutus-apps directory and update it to the  current git tag:
 
 ```
-totinj@penguin:~/plutus-apps$ git checkout main
+~/plutus-apps$ git checkout main
 ```
 ```
-totinj@penguin:~/plutus-apps$ git pull
+~/plutus-apps$ git pull
 ```
 ```
-totinj@penguin:~/plutus-apps$ git checkout 4edc082309c882736e9dec0132a3c936fe63b4ea
+~/plutus-apps$ git checkout 4edc082309c882736e9dec0132a3c936fe63b4ea
 ```
 
 You should now be up to date and can run nix-shell in this directory. Run nix-shell:
 
 ```
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 Head back to the week03 folder to start running the cabal commands:
@@ -91,7 +88,7 @@ Keep the cabal repl open on terminal 1, and open a new terminal 2. Head to the p
 
 ```
 Terminal 2
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 We can check the version of the Cardano Node and with the commands:
@@ -681,7 +678,7 @@ Let’s get started with terminal 1. Head to the plutus-apps directory and first
 
 ```haskell
 Terminal 3
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 
@@ -704,7 +701,7 @@ Let’s get started with terminal 2. Head to the plutus-apps directory and first
 
 ```haskell
 Terminal 4
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 
 Next we head to plutus-playground-client directory and run: 
@@ -1090,7 +1087,7 @@ The `text-view` command contains the following subcommand: <br/>
 In order to test our contracts, we first need to generate key pairs on the testnet. We can start by opening a new terminal to run nix-shell, making sure not to close the node syncing in the other terminal:
 
 ```
-totinj@penguin:~/plutus-apps$ nix-shell
+~/plutus-apps$ nix-shell
 ```
 Head to week03 subfolder in the plutus pioneer directory, then inside that the testnet folder. We will first generate our public and private keys 01.vkey and 01.skey respectively with the command:
 
